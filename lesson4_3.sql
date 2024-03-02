@@ -15,3 +15,24 @@ INSERT INTO student VALUES(5,'小黑','化學',20);
 
 SELECT *
 FROM student;
+
+SELECT name
+FROM student;
+
+SELECT name,major
+FROM student;
+
+SELECT name AS 姓名,major AS 主修
+FROM student;
+
+SELECT *
+FROM student
+ORDER BY score DESC;
+
+SELECT *
+FROM student
+ORDER BY score DESC
+LIMIT 3;
+
+
+
